@@ -47,7 +47,7 @@ const MainModal = ({ modalIsOpen, errors, handleSubmit, register, onSend, closeM
                     {...register('email', { required: true })}
                     type="email"
                   />
-                  {errors.email && <span className="text-danger">Add name</span>}
+                  {errors.email && <span className="text-danger">Add email</span>}
                 </Form.Group>
               </Row>
               <Row className="mb-3">
